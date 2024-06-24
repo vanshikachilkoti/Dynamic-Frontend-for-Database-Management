@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Hostel Database</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="header">
+                <h1 class="database-heading">Girls Hostel Database</h1>
+                <p class="college-name">Chandigarh College of Engineering and Technology, Sector-26, Chandigarh</p>
+            </div>
+            <form id="login-form" action="php/login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <select name="role" required>
+                    <option value="admin">Admin</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                </select>
+                <button type="submit">Sign In</button>
+                <p><a href="signup.html">Sign Up</a> | <a href="#">Forgot Password?</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
